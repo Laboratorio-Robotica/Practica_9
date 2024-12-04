@@ -17,7 +17,7 @@ El robot Epson debe ubicar 6 fusibles dentro de una matriz 3x2.
 3. Seleccionar la serie de fusibles a tomar lasa se colocadas en las charolas.
 4. Ajustar la altura y presicion para la colocacion.
 5. Comprobar posibles coliciones.
-6. Ejecutar la programacion para realizar la tarea asiganda.
+6. Ejecutar la programacion para realizar la tarea asignada.
 
 De tal manera que el codigo desarrollado quedo de la siguiente manera:
 
