@@ -23,56 +23,96 @@ De tal manera que el codigo desarrollado quedo de la siguiente manera:
 
 ```
 Function main
-
-Power High
-Speed 10
-
-Pallet 0, Esq1, Esq2, Esq3, 3, 2
+	Reset
+	Motor On
+	Power High
+	Speed 40
 
 Home
-Go Fus1
 On 2
-Go FusGrab1
+Go Caja_Der_4, Caja_Der_3, Caja_Der_2 CP
+Go Caja_Der_1
 Off 2
-Go Fus1 +Z(150)
-Go Pallet(0, 1, 1)
+Go Caja_Der_2, Caja_Der_3, Caja_Der_4 CP
+
+Go Centro
+
+Go Base1_4, Base1_3, Base1_2 CP
+Go Base1_1
 On 2
-Go Here +Z(220)
-Go Fus2
-Go FusGrab2
+Go Base1_2, Base1_3, Base1_4 CP
+
+Go Centro
+
+Go Caja_Izq_4, Caja_Izq_3, Caja_Izq_2 CP
+Go Caja_Izq_1
 Off 2
-Go Fus2 +Z(150)
-Go Pallet(0, 1, 2)
+Go Caja_Izq_2, Caja_Izq_3, Caja_Izq_4 CP
+
+Go Centro
+
+Go Base2_4, Base2_3, Base2_2 CP
+Go Base2_1
 On 2
-Go Here +Z(220)
-Go Fus3
-Go FusGrab3
+Go Base2_2, Base2_3, Base2_4 CP
+
+Go Centro
+
+Go Fusible1_izq_4, Fusible1_izq_3, Fusible1_izq_2 CP
+Go Fusible1_izq_1
 Off 2
-Go Fus3 +Z(150)
-Go Pallet(0, 2, 1)
+Go Fusible1_izq_2, Fusible1_izq_3, Fusible1_izq_4 CP
+
+Go Centro
+
+Go Base1_Fus_Izq_4, Base1_Fus_Izq_3, Base1_Fus_Izq_2 CP
+Go Base1_Fus_Izq_1
 On 2
-Go Here +Z(220)
-Go Fus4
-Go FusGrab4
+Go Base1_Fus_Izq_2, Base1_Fus_Izq_3, Base1_Fus_Izq_4 CP
+
+Go Centro
+
+Go Fusible2_izq_4, Fusible2_izq_3, Fusible2_izq_2 CP
+Go Fusible2_izq_1
 Off 2
-Go Fus4 +Z(150)
-Go Pallet(0, 2, 2)
+Go Fusible2_izq_2, Fusible2_izq_3, Fusible2_izq_4 CP
+
+Go Centro
+
+Go Base1_Fus_Der_4, Base1_Fus_Der_3, Base1_Fus_Der_2 CP
+Go Base1_Fus_Der_1
 On 2
-Go Here +Z(220)
-Go Fus5
-Go FusGrab5
+Go Base1_Fus_Der_2, Base1_Fus_Der_3, Base1_Fus_Der_4 CP
+
+Go Centro
+
+Go Fusible1_Der_4, Fusible1_Der_3, Fusible1_Der_2 CP
+Go Fusible1_Der_1
 Off 2
-Go Fus5 +Z(150)
-Go Pallet(0, 3, 1)
+Go Fusible1_Der_2, Fusible1_Der_3, Fusible1_Der_4 CP
+
+Go Centro
+ 
+Go Base2_Fus_Izq_4, Base2_Fus_Izq_3, Base2_Fus_Izq_2 CP
+Go Base2_Fus_Izq_1
 On 2
-Go Here +Z(220)
-Go Fus6
-Go FusGrab6
+Go Base2_Fus_Izq_2, Base2_Fus_Izq_3, Base2_Fus_Izq_4 CP
+
+Go Centro
+
+Go Fusible2_Der_4, Fusible2_Der_3, Fusible2_Der_2 CP
+Go Fusible2_Der_1
 Off 2
-Go Fus6 +Z(150)
-Go Pallet(0, 3, 2)
+Go Fusible2_Der_2, Fusible2_Der_3, Fusible2_Der_4 CP
+
+Go Centro
+
+Go Base2_Fus_Der_4, Base2_Fus_Der_3, Base2_Fus_Der_2 CP
+Go Base2_Fus_Der_1
 On 2
-Go Here +Z(220)
+Go Base2_Fus_Der_2, Base2_Fus_Der_3, Base2_Fus_Der_4 CP
+
+Go Centro
 Home
 
 Fend
